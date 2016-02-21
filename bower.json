@@ -1,0 +1,24 @@
+{
+  "name": "gulp_setup",
+  "description": "Bower dependencies",
+  "main": "index.js",
+  "authors": [
+    "Jimmi"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "magnific-popup": "^1.1.0",
+    "foundation": "^5.5.3"
+  }
+}

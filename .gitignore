@@ -1,0 +1,3 @@
+# Git uses this file ignore folder and files
+node_modules
+bower_components

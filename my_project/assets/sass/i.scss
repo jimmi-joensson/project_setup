@@ -1,0 +1,22 @@
+/*
+    ======================================
+     This sass file combines all sass files to one
+    ======================================
+*/
+@import 'reset';
+
+/*
+    ======================================
+     Plugin sass files
+    ======================================
+*/
+@import '../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/*
+    ======================================
+     Our own sass files
+    ======================================
+*/
+@import 'desktop';
+@import 'medium';
+@import 'small';
