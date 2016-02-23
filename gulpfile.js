@@ -49,7 +49,6 @@ gulp.task('sass', function() {
         .pipe(gulpsass())
         .pipe(cssnano())
       .pipe(sourcemaps.write())
-      .pipe(plumber.stop())
       .pipe(gulp.dest('my_project/css'))
       .pipe(browsersync.stream());
 });
