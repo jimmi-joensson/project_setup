@@ -1,3 +1,4 @@
 # Git uses this file ignore folder and files
+.idea
 node_modules
 bower_components
