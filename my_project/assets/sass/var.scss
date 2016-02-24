@@ -1,0 +1,6 @@
+$f-base-size: 17px;
+
+// Function to transform px to rem
+@function rem( $target-px, $context: $f-base-size ) {
+  @return ( $target-px / $context ) * 1rem;
+}
